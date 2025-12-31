@@ -3,42 +3,48 @@ title: Home
 slug: /
 sections:
   - type: GenericSection
-    badge:
-      label: SyncHaul
-      color: text-primary
-      type: Badge
     title:
-      text: Trucking coordination that keeps freight moving—without the chaos.
+      text: SyncHaul Trucking Coordination
       color: text-dark
       type: TitleBlock
-    subtitle: Reliable truckload execution across the USA
+    subtitle: Nationwide load tracking, appointment coordination, and proactive updates—built for brokers, shippers, and carriers.
     text: |-
-      SyncHaul helps brokers, shippers, and carriers run smoother truckload moves across the USA with real-time updates,
-      appointment support, and proactive exception management.
+      **What you get with SyncHaul**
+      - Real-time shipment visibility & status updates
+      - Appointment scheduling & check-call management
+      - Exception handling (delays, breakdowns, detention risks)
+      - Clear communication between shipper, carrier, and broker
 
-      - Faster coverage on tough lanes  
-      - Live tracking + consistent check calls  
-      - Appointment scheduling + pickup/delivery coordination  
-      - Clear paperwork flow (RC, BOL, POD)
+      We keep freight moving across the USA with a simple, reliable process and fast response times.
     actions:
       - label: Request a Quote
+        altText: ''
         url: /contact
         showIcon: false
         icon: arrowRight
         iconPosition: right
         style: primary
+        elementId: ''
         type: Button
-      - label: Talk to a Specialist
+      - label: Contact Us
+        altText: ''
         url: /contact
         showIcon: true
         icon: arrowRight
         iconPosition: right
         style: secondary
+        elementId: ''
         type: Link
     media:
       url: /images/main-hero.svg
-      altText: SyncHaul trucking coordination
+      altText: SyncHaul hero image
+      elementId: ''
       type: ImageBlock
+    badge:
+      label: USA Coverage • Fast Updates
+      color: text-primary
+      type: Badge
+    elementId: ''
     colors: bg-light-fg-dark
     styles:
       self:
@@ -50,155 +56,185 @@ sections:
           - pb-16
           - pr-16
 
-  - type: GenericSection
-    title:
-      text: Built for teams that need speed + consistency.
-      color: text-dark
-      type: TitleBlock
-    text: |-
-      **Built for:** Brokers • Shippers • Owner-Operators • Small Fleets  
-      **Coverage:** Nationwide USA (all states)
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        flexDirection: col
-        justifyContent: center
-        padding:
-          - pt-10
-          - pb-10
-          - pl-16
-          - pr-16
-
   - type: FeaturedItemsSection
     title:
-      text: Services
+      text: Our Core Services
       color: text-dark
       styles:
         self:
           textAlign: center
       type: TitleBlock
-    subtitle: What SyncHaul can handle for you
+    subtitle: Built to reduce back-and-forth and keep every party aligned.
     items:
       - type: FeaturedItem
-        title: Truckload Coordination
-        subtitle: Tender → POD execution
-        text: End-to-end coordination from tender to POD—appointments, check calls, and status updates.
-        image:
-          url: /images/icon1.svg
-          altText: Truckload coordination icon
-          type: ImageBlock
+        title: Dispatch & Load Tracking
+        subtitle: Daily check-calls + milestone updates
+        text: |-
+          Pickup/arrival/departure confirmations, ETA monitoring, and proactive communication so nothing gets missed.
         actions: []
+        elementId: null
         colors: bg-neutralAlt-fg-dark
         styles:
           self:
-            padding: [pt-8, pl-8, pb-8, pr-8]
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
             borderRadius: x-large
+            flexDirection: row
+            justifyContent: center
+            textAlign: left
+        image:
+          type: ImageBlock
+          altText: Service icon
+          elementId: ''
+          url: /images/icon1.svg
+          styles:
+            self:
+              borderRadius: x-large
 
       - type: FeaturedItem
-        title: Carrier Sourcing & Capacity Support
-        subtitle: Help when lanes get tight
-        text: Support finding dependable capacity and keeping coverage reliable on tough markets.
+        title: Appointment Coordination
+        subtitle: Ship/recv scheduling support
+        text: |-
+          We coordinate appointment requests, confirmations, and changes—then share updates to all parties.
+        actions: []
+        elementId: null
+        colors: bg-neutralAlt-fg-dark
+        styles:
+          self:
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
+            borderRadius: x-large
+            flexDirection: row
+            justifyContent: center
+            textAlign: left
         image:
+          type: ImageBlock
+          altText: Service icon
+          elementId: ''
           url: /images/icon2.svg
-          altText: Capacity support icon
-          type: ImageBlock
+          styles:
+            self:
+              borderRadius: x-large
+
+      - type: FeaturedItem
+        title: Exception Management
+        subtitle: Delays, breakdowns, reschedules
+        text: |-
+          If something goes off-plan, we act fast: notify stakeholders, find solutions, and document outcomes.
         actions: []
+        elementId: null
         colors: bg-neutralAlt-fg-dark
         styles:
           self:
-            padding: [pt-8, pl-8, pb-8, pr-8]
+            padding:
+              - pt-8
+              - pl-8
+              - pb-8
+              - pr-8
             borderRadius: x-large
-
-      - type: FeaturedItem
-        title: Live Tracking & Exception Management
-        subtitle: Proactive visibility
-        text: Real-time tracking, early delay prevention, and fast issue escalation when something changes.
+            flexDirection: row
+            justifyContent: center
+            textAlign: left
         image:
+          type: ImageBlock
+          altText: Service icon
+          elementId: ''
           url: /images/icon3.svg
-          altText: Tracking icon
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding: [pt-8, pl-8, pb-8, pr-8]
-            borderRadius: x-large
+          styles:
+            self:
+              borderRadius: x-large
 
-      - type: FeaturedItem
-        title: Paperwork & Closeout Support
-        subtitle: RC • BOL • POD
-        text: Organized paperwork flow, missing-doc follow-ups, and clean closeouts for faster billing.
-        image:
-          url: /images/icon1.svg
-          altText: Paperwork icon
-          type: ImageBlock
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding: [pt-8, pl-8, pb-8, pr-8]
-            borderRadius: x-large
     actions:
-      - label: Request a Quote
+      - label: Get a Quote
+        altText: ''
         url: /contact
-        style: primary
-        type: Button
         showIcon: false
         icon: arrowRight
         iconPosition: right
+        style: primary
+        elementId: ''
+        type: Button
+    badge:
+      label: Simple • Reliable • Responsive
+      color: text-primary
+      styles:
+        self:
+          textAlign: center
+      type: Badge
+    elementId: ''
     variant: three-col-grid
-    colors: bg-light-fg-dark
+    colors: bg-neutral-fg-dark
     styles:
       self:
-        padding: [pt-16, pl-16, pb-16, pr-16]
+        padding:
+          - pb-16
+          - pt-16
+          - pl-16
+          - pr-16
         justifyContent: center
       subtitle:
         textAlign: center
 
-  - type: FeaturedItemsSection
+  - title: Divider
+    colors: bg-light-fg-dark
+    styles:
+      self:
+        padding:
+          - pt-7
+          - pl-7
+          - pb-7
+          - pr-7
+    type: DividerSection
+
+  - type: GenericSection
     title:
-      text: How SyncHaul Works
+      text: Quick Quote Request
       color: text-dark
       styles:
         self:
-          textAlign: center
+          textAlign: left
       type: TitleBlock
-    subtitle: Simple, repeatable, road-realistic execution
-    items:
-      - type: FeaturedItem
-        title: 1) Share the load details
-        subtitle: Lane + windows + equipment
-        text: Lane, pickup/delivery windows, equipment, rate, and special notes.
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding: [pt-8, pl-8, pb-8, pr-8]
-            borderRadius: x-large
-
-      - type: FeaturedItem
-        title: 2) We coordinate the move
-        subtitle: Appointments + tracking
-        text: Appointments, driver communication, tracking, and updates you can forward to customers.
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding: [pt-8, pl-8, pb-8, pr-8]
-            borderRadius: x-large
-
-      - type: FeaturedItem
-        title: 3) Clean closeout
-        subtitle: POD collected
-        text: POD collected, exceptions documented, and final status confirmed.
-        actions: []
-        colors: bg-neutralAlt-fg-dark
-        styles:
-          self:
-            padding: [pt-8, pl-8, pb-8, pr-8]
-            borderRadius: x-large
-    variant: three-col-grid
-    colors: bg-neutral-fg-dark
-    styles:
-      self:
-        padding: [pt-16, pl]()
+    subtitle: Tell us what you need—we’ll respond fast.
+    text: |-
+      Share basic lane and timing details and we’ll get back to you with next steps.
+    actions: []
+    media:
+      fields:
+        - name: name
+          label: Name
+          hideLabel: true
+          placeholder: Your name
+          isRequired: true
+          width: full
+          type: TextFormControl
+        - name: email
+          label: Email
+          hideLabel: true
+          placeholder: Your email
+          isRequired: true
+          width: full
+          type: EmailFormControl
+        - name: lane
+          label: Lane
+          hideLabel: true
+          placeholder: Pickup city/state → Delivery city/state
+          isRequired: true
+          width: full
+          type: TextFormControl
+        - name: message
+          label: Details
+          hideLabel: true
+          placeholder: Equipment type, pickup date, weight, special notes…
+          width: full
+          type: TextareaFormControl
+      elementId: contact-form
+      styles:
+        self:
+          padding:
+            - pt-6
